@@ -42,8 +42,8 @@ namespace RGR_project
 
 
 
-            field.DrawImage(Field, 60, 60);
-            player.DrawImage(Player, X, Y, 100, 100);
+            field.DrawImage(Field,20,20,1100,700);
+            player.DrawImage(Player, X, Y, 70, 70);
 
 
         }
@@ -57,7 +57,7 @@ namespace RGR_project
             if (_personPosition == position.right)
             {
                 X += 5;
-            }
+            } //test
             else if (_personPosition == position.left)
             {
                 X -= 5;
